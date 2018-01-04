@@ -12,6 +12,7 @@
 		E761D8A81FFE4A84007FF01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E761D8A61FFE4A84007FF01D /* Main.storyboard */; };
 		E761D8AA1FFE4A84007FF01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E761D8A91FFE4A84007FF01D /* Assets.xcassets */; };
 		E761D8AD1FFE4A84007FF01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E761D8AB1FFE4A84007FF01D /* LaunchScreen.storyboard */; };
+		E761D8B51FFE4F1E007FF01D /* 100ten.png in Resources */ = {isa = PBXBuildFile; fileRef = E761D8B41FFE4F1E007FF01D /* 100ten.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E761D8A91FFE4A84007FF01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E761D8AC1FFE4A84007FF01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E761D8AE1FFE4A84007FF01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E761D8B41FFE4F1E007FF01D /* 100ten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100ten.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E761D8A11FFE4A84007FF01D /* GuessScoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				E761D8B41FFE4F1E007FF01D /* 100ten.png */,
 				E761D8A21FFE4A84007FF01D /* AppDelegate.swift */,
 				E761D8A41FFE4A84007FF01D /* ViewController.swift */,
 				E761D8A61FFE4A84007FF01D /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E761D8AD1FFE4A84007FF01D /* LaunchScreen.storyboard in Resources */,
+				E761D8B51FFE4F1E007FF01D /* 100ten.png in Resources */,
 				E761D8AA1FFE4A84007FF01D /* Assets.xcassets in Resources */,
 				E761D8A81FFE4A84007FF01D /* Main.storyboard in Resources */,
 			);
