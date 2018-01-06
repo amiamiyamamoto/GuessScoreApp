@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //点数を入力するテキストフィールド
+    @IBOutlet weak var textField: UITextField!
+    
     //UIImageViewを紐付ける
     @IBOutlet weak var imageView: UIImageView!
 
@@ -22,6 +25,13 @@ class ViewController: UIViewController {
         imageView.image = topImage
     }
 
+    //ボタンが押されたときの処理
+    @IBAction func tapCheck(_ sender: Any) {
+        
+//        if let num = Int(textField.text!) {
+//            
+//        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
