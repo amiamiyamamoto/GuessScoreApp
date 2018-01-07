@@ -19,17 +19,25 @@ class ViewController: UIViewController {
     //画像のインスタンスを作成
     var topImage:UIImage!
     
+    //点数
+    var score:Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        //画像を表示させる
         topImage = UIImage(named:"100ten")
         imageView.image = topImage
+        
+        //点数をランダムに生成する
+        score = Int(arc4random_uniform(100))
     }
 
     //ボタンが押されたときの処理
     @IBAction func tapCheck(_ sender: Any) {
         
 //        if let num = Int(textField.text!) {
-//            
+//
 //        }
     }
     override func didReceiveMemoryWarning() {
