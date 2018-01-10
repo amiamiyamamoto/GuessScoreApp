@@ -22,6 +22,11 @@ class ViewController: UIViewController {
     //点数
     var score:Int = 0
     
+    //ボタンのタップ回数を数える変数
+    var count:Int = 0
+    
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,9 +41,27 @@ class ViewController: UIViewController {
     //ボタンが押されたときの処理
     @IBAction func tapCheck(_ sender: Any) {
         
-//        if let num = Int(textField.text!) {
-//
-//        }
+        //countをカウントアップする
+        count += 1
+        
+        if let num = Int(textField.text!) {
+            
+            if num > score {
+                label.text = "もっと低かった・・・"
+            }
+            
+            if num < score {
+                label.text = "もっと高かった♪♪♪"
+            }
+            
+            if num == score {
+                label.text = "正解!!!\(count)回目で当たった！"
+                
+                //再度スコアを設定
+                score = Int(arc4random_uniform(100))
+            }
+
+        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
